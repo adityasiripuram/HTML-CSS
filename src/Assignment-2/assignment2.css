@@ -1,7 +1,126 @@
 /* Our CSS file. */
-
-
+body{
+    border: 2px solid lightseagreen;
+    border-radius: 15px;
+}
 .container, .content {
-width: 100%;
-height: 100%;
+    width: 100%;
+    height: 100%;
+    margin: 2px solid rgb(185, 156, 156);
+    
+}
+.page_head1{
+    display:block;
+    background: lightskyblue;
+    height: 55%;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 5px;
+    border: 2px;
+}
+.logo{
+    height: 75px;
+    width: 75px;
+
+}
+.head2{
+    margin-top: 30px;
+    float: right;
+}
+.head1,.head2{
+    display: inline-block;
+    margin-right: 45px;
+}
+.page_head2{
+    display:block;
+    background: lightsteelblue;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 5px;
+    text-align: center;
+}
+
+.ul-1,ul li{
+    display: inline-block;
+    margin-right: 2;
+    font-style: italic;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+.middle{
+    display: inline-block;
+    width: 10%;
+    margin:5px;
+    vertical-align: top;
+    
+
+}
+.lefty{
+    background:  rgb(149, 248, 248);
+    border-radius: 10px;
+    border: 2px solid mediumaquamarine;
+    height: 55vh;
+}
+ .lefty ul li{
+    display:block;
+    padding: 7px;
+    margin: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }   
+
+.mid-left,.mid-img,.mid-right{
+    display: inline-block;
+}
+.mid-img{
+    width: 70%;
+    border: 2px solid aquamarine;
+    padding: 5px;
+    margin: 3px 3px 3px 3px;
+    border-radius: 10px;
+
+    
+}
+#main-content-section{
+    height: 120%;
+}
+#post-img{
+    border-left: 10px;
+    border-right: 10px;
+
+}
+
+.top-img,.bottom-img{
+    display: block;
+    padding: 15px;
+    border-left: 20px;
+    border-right: 20px;
+}
+.righty{
+    border-radius: 15px;
+    display: block;
+    background: rgb(173, 236, 252);
+    margin: 2px;
+    border: 2px solid mediumaquamarine;
+    padding: 3px;
+    
+}
+.righty ul li{
+    display: block;
+    padding: 15px;
+    height: 4vh;
+   
+}
+.mid-right{
+    vertical-align: top;
+}
+
+footer{
+    background: rgb(235, 247, 127);
+    text-align: center;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 4px;
+    border: 2px solid rgb(186, 252, 101);
 }
